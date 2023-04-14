@@ -1,5 +1,9 @@
 # NBA_Playoffs
 
+
+![Jim-Mora-Playoffs](https://user-images.githubusercontent.com/80132877/232113495-cb8f6cfd-ec6e-475c-b2ef-31b746918460.jpg)
+
+
 ## NBA Team Performance Prediction Model
 
 This repository contains a machine learning model that predicts the number of wins ('W') for NBA teams based on their statistics. The dataset used for training and testing the model consists of various team-level features, such as shooting percentages, turnovers, and attendance.
