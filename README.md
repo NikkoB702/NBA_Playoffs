@@ -6,6 +6,16 @@
 
 ## NBA Team Performance Prediction Model
 
+## Data Source and Data Collection
+
+The dataset used in this project was sourced from Basketball-Reference, a comprehensive online database that provides a wealth of basketball statistics, scores, and historical records for both individual players and teams.
+
+To collect the data, we employed web scraping techniques using the Pandas library in Python. Specifically, we utilized Pandas' read_html function to extract tabular data from the web pages of Basketball-Reference. The collected data consists of various team-level features and statistics, such as shooting percentages, turnovers, attendance, and overall team performance, for the NBA season under study.
+
+It's important to note that the data scraping process was conducted in compliance with the terms of service of Basketball-Reference, and the dataset was utilized solely for the purpose of training and evaluating the machine learning model in this project.
+
+Once the data was scraped and collected, it was cleaned, preprocessed, and organized into a structured format suitable for model training and analysis. The resulting dataset provided a solid foundation for developing the linear regression model that predicts the number of wins for NBA teams based on their statistics.
+
 Use the advanced_stats dataset to achieve desired results!
 
 This repository contains a machine learning model that predicts the number of wins ('W') for NBA teams based on their statistics. The dataset used for training and testing the model consists of various team-level features, such as shooting percentages, turnovers, and attendance.
