@@ -34,6 +34,25 @@ The linear regression model was developed to predict the number of wins ('W') fo
 
 Overall, the model demonstrated impressive predictive accuracy across all performance metrics. The KFold cross-validation results validate the model's robustness and its ability to generalize well to new, unseen data.
 
+## NBA Playoff Matchup Simulator
+
+* Use the simulator notebook and the playoff_teams csv
+
+##### Ket Components
+
+* Data preparation: The dataset was preprocessed by filtering only playoff teams, handling missing data, and encoding categorical features.
+* Model training: A linear regression model was trained on the prepared data using Scikit-learn.
+* Matchup simulation: A function was created to simulate matchups between any two playoff teams by feeding their stats into the trained model and predicting the number of wins for each team.
+
+##### Usage
+
+You can use this project to simulate playoff matchups by providing the team names of the two teams you want to compare. The model will output the predicted winner and the number of wins for each team.
+
+##### Future Improvements
+
+* Experiment with different machine learning algorithms to improve prediction accuracy.
+* Incorporate additional data sources, such as player injuries and historical playoff performance, to enhance the model's predictive power.
+
 ##### Repository Structure
 
 * data/: Contains the dataset used for training and testing the model.
